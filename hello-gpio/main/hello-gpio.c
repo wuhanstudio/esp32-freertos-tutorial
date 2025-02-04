@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #include <freertos/FreeRTOS.h>
-#include "driver/gpio.h"
+#include <driver/gpio.h>
 
 #include "esp_log.h"
 

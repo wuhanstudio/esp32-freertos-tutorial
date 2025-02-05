@@ -1,5 +1,7 @@
 # ESP32 FreeRTOS Tutorial
 
+![](board.png)
+
 ```
 $ idf.py create-project hello-world
 $ cd hello-world

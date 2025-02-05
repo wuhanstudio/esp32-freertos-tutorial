@@ -1,12 +1,12 @@
 - [ESP32 FreeRTOS Tutorial](#esp32-freertos-tutorial)
-  * [Project 1: Hello World](#project-1--hello-world)
-  * [Project 2: Hello GPIO](#project-2--hello-gpio)
-  * [Project 3: Hello LED Strip](#project-3--hello-led-strip)
-  * [Project 4: Hello SD Card (SPI)](#project-4--hello-sd-card--spi-)
-  * [Project 5: Hello SPIFFS](#project-5--hello-spiffs)
-  * [Project 6: Hello LCD (SPI)](#project-6--hello-lcd--spi-)
-  * [Project 7: Hello LVGL (SPI)](#project-7--hello-lvgl--spi-)
-  * [Project 8: Hello LVGL (ILI9341 + XPT2046)](#project-8--hello-lvgl--ili9341---xpt2046-)
+  * [Project 1: Hello World](#project-1-hello-world)
+  * [Project 2: Hello GPIO](#project-2-hello-gpio)
+  * [Project 3: Hello LED Strip](#project-3-hello-led-strip)
+  * [Project 4: Hello SD Card (SPI)](#project-4-hello-sd-card-spi)
+  * [Project 5: Hello SPIFFS](#project-5-hello-spiffs)
+  * [Project 6: Hello LCD (SPI)](#project-6-hello-lcd-spi)
+  * [Project 7: Hello LVGL (SPI)](#project-7-hello-lvgl-spi)
+  * [Project 8: Hello LVGL (ILI9341 + XPT2046)](#project-8-hello-lvgl-ili9341--xpt2046)
 
 # ESP32 FreeRTOS Tutorial
 

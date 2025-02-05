@@ -7,4 +7,5 @@ $ cd hello-world
 $ idf.py set-target esp32
 $ idf.py build
 $ idf.py -p COM4 flash
+$ idf.py -p COM4 monitor
 ```

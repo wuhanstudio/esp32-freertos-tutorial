@@ -18,7 +18,7 @@
 #include <driver/gpio.h>
 #include <driver/ledc.h>
 #include <driver/spi_master.h>
-#include <esp_lcd_ili9341.h>
+#include <esp_lcd_st7735.h>
 
 #include <lvgl.h>
 #include <esp_lvgl_port.h>
@@ -127,14 +127,14 @@ esp_err_t app_lcd_init(esp_lcd_panel_io_handle_t *lcd_io, esp_lcd_panel_handle_t
         .bits_per_pixel = LCD_BITS_PIXEL,
     };
 
-    esp_err_t r = esp_lcd_new_panel_ili9341(*lcd_io, &panel_config, lcd_panel);
+    esp_err_t r = esp_lcd_new_panel_st7735(*lcd_io, &panel_config, lcd_panel);
 
     esp_lcd_panel_reset(*lcd_panel);
     esp_lcd_panel_init(*lcd_panel);
 
     esp_lcd_panel_mirror(*lcd_panel, LCD_MIRROR_X, LCD_MIRROR_Y);
     esp_lcd_panel_disp_on_off(*lcd_panel, true);
-
+    esp_lcd_panel_set_gap(*lcd_panel, LCD_OFFSET_X, LCD_OFFSET_Y);
     return r;
 }
 
